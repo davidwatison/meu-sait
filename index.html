@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Profissional</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Bem-vindo ao Meu Site!</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#assunto1">Assunto 1</a></li>
+            <li><a href="#assunto2">Assunto 2</a></li>
+            <li><a href="#assunto3">Assunto 3</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="assunto1">
+            <h2>Assunto 1</h2>
+            <p>Conteúdo do Assunto 1...</p>
+        </section>
+
+        <section id="assunto2">
+            <h2>Assunto 2</h2>
+            <p>Conteúdo do Assunto 2...</p>
+        </section>
+
+        <section id="assunto3">
+            <h2>Assunto 3</h2>
+            <p>Conteúdo do Assunto 3...</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Contato: meuesite@email.com</p>
+    </footer>
+
+    <!-- Caixa de pesquisa -->
+    <div id="search-container">
+        <input type="text" id="search" placeholder="Pesquisar..." />
+        <div id="search-results"></div>
+    </div>
+
+    <script src="assets/lunr.min.js"></script>
+    <script src="data.js"></script>
+    <script src="search.js"></script>
+</body>
+</html>
